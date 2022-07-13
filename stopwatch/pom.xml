@@ -8,6 +8,11 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <properties>
+      <sonar.organization>msrmcoder</sonar.organization>
+      <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
+
     <groupId>org.opensource.mertics.util</groupId>
     <artifactId>stopwatch</artifactId>
     <version>1.0-SNAPSHOT</version>
